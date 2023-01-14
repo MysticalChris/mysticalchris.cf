@@ -1,0 +1,93 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title> Ｃｈｒｉｓ</title>
+  <link rel="icon" href="assets/media/icon.png">
+  <script type=" text/javascript" src="assets/js/script.js"></script>
+  <link rel="stylesheet" href="assets/css/styles.scss">
+  <link rel="stylesheet" href="assets/css/clock.scss">
+  <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+
+  <meta property="og:image" content="https://cdn.discordapp.com/attachments/1055205574574346380/1055251955246702713/PFP.png" />
+  <meta property="og:site_name" content="" />
+  <meta property="og:type" content="object" />
+  <meta property="og:title" content="" />
+  <meta property="og:url" content="https://" />
+  <meta property="og:description" content="MysticalChris" />
+  
+  <meta name="twitter:image:src" content="https://cdn.discordapp.com/attachments/1055205574574346380/1055251955246702713/PFP.png" />
+  <meta name="twitter:site" content="@Mystical_Chris" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Chris" />
+  <meta name="twitter:description" content="Info About Me" />
+</head>
+
+<body onload="onLoad()">
+  <header>
+    <div class="video-container">
+      <div id="video_cover"></div>
+      <video id='myVideo' autoplay muted loop>
+        <source src="assets/media/bgvideo.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="text-container">
+      <div class="content">
+
+        <div class="glitch">
+          <div class="clock is-off"><span class="time" data-time=""></span></div>
+        </div>
+
+        <h2>
+               Discord:
+            Chris!#9999
+        </h2>
+
+        <h1>
+          -> Node.JS, Python, Learning HTML, Lua. <-
+        </h1>
+
+        <section class="glowing-icons">
+          <ul>
+            <li class="rxps">
+              <a target="_blank" href="https://discord.gg/74FnnsGy">
+                <i class="fa-brands fa-discord"></i>
+              </a>
+            </li>
+            <li class="rxps">
+              <a target="_blank" href="https://github.com/MysticalChris">
+                <i class="fa-brands fa-github"></i>
+              </a>
+            </li>
+            <li class="rxps">
+              <a target="_blank" href="https://www.youtube.com/@MysticalChris">
+                <i class="fa-brands fa-youtube"></i>
+              </a>
+            </li>
+            <li class="rxps">
+              <a target="_blank" href="https://twitter.com/Mystical_Chris">
+                <i class="fa-brands fa-twitter"></i>
+              </a>
+            </li>
+            <li class="rxps">
+              <a target="_blank" href="https://steamcommunity.com/profiles/76561199384642429/">
+                <i class="fa-brands fa-steam"></i>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <div>
+          <i class='iconVolume bx bxs-volume-mute bx-tada bx-flip-vertical' id="iconVolume" onclick="toggleMute();"></i>
+        </div>
+
+        <iframe height="2" width="2" style="position: absolute; top: 0px; left: 0px; border: none; visibility: hidden;"></iframe>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>
